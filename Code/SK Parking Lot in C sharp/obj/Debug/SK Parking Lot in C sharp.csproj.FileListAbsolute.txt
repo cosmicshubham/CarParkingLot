@@ -1,0 +1,55 @@
+c:\users\shubham kumar\documents\visual studio 2013\Projects\SK Parking Lot in C sharp\SK Parking Lot in C sharp\obj\Debug\SK Parking Lot in C sharp.csprojResolveAssemblyReference.cache
+c:\users\shubham kumar\documents\visual studio 2013\Projects\SK Parking Lot in C sharp\SK Parking Lot in C sharp\obj\Debug\MainWindow.baml
+c:\users\shubham kumar\documents\visual studio 2013\Projects\SK Parking Lot in C sharp\SK Parking Lot in C sharp\obj\Debug\MainWindow.g.cs
+c:\users\shubham kumar\documents\visual studio 2013\Projects\SK Parking Lot in C sharp\SK Parking Lot in C sharp\obj\Debug\App.g.cs
+c:\users\shubham kumar\documents\visual studio 2013\Projects\SK Parking Lot in C sharp\SK Parking Lot in C sharp\obj\Debug\SK Parking Lot in C sharp.csproj.GenerateResource.Cache
+C:\Users\Shubham Kumar\documents\visual studio 2013\Projects\SK Parking Lot in C sharp\SK Parking Lot in C sharp\bin\Debug\SK Parking Lot.exe.config
+C:\Users\Shubham Kumar\documents\visual studio 2013\Projects\SK Parking Lot in C sharp\SK Parking Lot in C sharp\bin\Debug\SK Parking Lot.exe
+C:\Users\Shubham Kumar\documents\visual studio 2013\Projects\SK Parking Lot in C sharp\SK Parking Lot in C sharp\bin\Debug\SK Parking Lot.pdb
+C:\Users\Shubham Kumar\documents\visual studio 2013\Projects\SK Parking Lot in C sharp\SK Parking Lot in C sharp\obj\Debug\SK Parking Lot_MarkupCompile.cache
+C:\Users\Shubham Kumar\documents\visual studio 2013\Projects\SK Parking Lot in C sharp\SK Parking Lot in C sharp\obj\Debug\SK Parking Lot.g.resources
+C:\Users\Shubham Kumar\documents\visual studio 2013\Projects\SK Parking Lot in C sharp\SK Parking Lot in C sharp\obj\Debug\SK_Parking_Lot.Properties.Resources.resources
+C:\Users\Shubham Kumar\documents\visual studio 2013\Projects\SK Parking Lot in C sharp\SK Parking Lot in C sharp\obj\Debug\SK Parking Lot.exe
+C:\Users\Shubham Kumar\documents\visual studio 2013\Projects\SK Parking Lot in C sharp\SK Parking Lot in C sharp\obj\Debug\SK Parking Lot.pdb
+C:\Users\Shubham Kumar\documents\visual studio 2013\Projects\SK Parking Lot in C sharp\SK Parking Lot in C sharp\bin\Debug\SK Parking Lot.exe.manifest
+C:\Users\Shubham Kumar\documents\visual studio 2013\Projects\SK Parking Lot in C sharp\SK Parking Lot in C sharp\bin\Debug\SK Parking Lot.application
+C:\Users\Shubham Kumar\documents\visual studio 2013\Projects\SK Parking Lot in C sharp\SK Parking Lot in C sharp\obj\Debug\SK Parking Lot.TrustInfo.xml
+C:\Users\Shubham Kumar\documents\visual studio 2013\Projects\SK Parking Lot in C sharp\SK Parking Lot in C sharp\obj\Debug\SK Parking Lot.exe.manifest
+C:\Users\Shubham Kumar\documents\visual studio 2013\Projects\SK Parking Lot in C sharp\SK Parking Lot in C sharp\obj\Debug\SK Parking Lot.application
+D:\Docs & Edu\Projects & ppt\CS Programs\SK Projects\SK Parking Lot Program (C#)\Developer\SK Parking Lot in C sharp Final\SK Parking Lot in C sharp\SK Parking Lot in C sharp\bin\Debug\SK Parking Lot.exe.config
+D:\Docs & Edu\Projects & ppt\CS Programs\SK Projects\SK Parking Lot Program (C#)\Developer\SK Parking Lot in C sharp Final\SK Parking Lot in C sharp\SK Parking Lot in C sharp\obj\Debug\SK Parking Lot.exe
+D:\Docs & Edu\Projects & ppt\CS Programs\SK Projects\SK Parking Lot Program (C#)\Developer\SK Parking Lot in C sharp Final\SK Parking Lot in C sharp\SK Parking Lot in C sharp\obj\Debug\SK Parking Lot.pdb
+D:\Docs & Edu\Projects & ppt\CS Programs\SK Projects\SK Parking Lot Program (C#)\Developer\SK Parking Lot in C sharp Final\SK Parking Lot in C sharp\SK Parking Lot in C sharp\obj\Debug\SK Parking Lot in C sharp.csprojResolveAssemblyReference.cache
+D:\Docs & Edu\Projects & ppt\CS Programs\SK Projects\SK Parking Lot Program (C#)\Developer\SK Parking Lot in C sharp Final\SK Parking Lot in C sharp\SK Parking Lot in C sharp\obj\Debug\MainWindow.baml
+D:\Docs & Edu\Projects & ppt\CS Programs\SK Projects\SK Parking Lot Program (C#)\Developer\SK Parking Lot in C sharp Final\SK Parking Lot in C sharp\SK Parking Lot in C sharp\obj\Debug\MainWindow.g.cs
+D:\Docs & Edu\Projects & ppt\CS Programs\SK Projects\SK Parking Lot Program (C#)\Developer\SK Parking Lot in C sharp Final\SK Parking Lot in C sharp\SK Parking Lot in C sharp\obj\Debug\App.g.cs
+D:\Docs & Edu\Projects & ppt\CS Programs\SK Projects\SK Parking Lot Program (C#)\Developer\SK Parking Lot in C sharp Final\SK Parking Lot in C sharp\SK Parking Lot in C sharp\obj\Debug\SK Parking Lot_MarkupCompile.cache
+D:\Docs & Edu\Projects & ppt\CS Programs\SK Projects\SK Parking Lot Program (C#)\Developer\SK Parking Lot in C sharp Final\SK Parking Lot in C sharp\SK Parking Lot in C sharp\obj\Debug\SK Parking Lot.g.resources
+D:\Docs & Edu\Projects & ppt\CS Programs\SK Projects\SK Parking Lot Program (C#)\Developer\SK Parking Lot in C sharp Final\SK Parking Lot in C sharp\SK Parking Lot in C sharp\obj\Debug\SK_Parking_Lot.Properties.Resources.resources
+D:\Docs & Edu\Projects & ppt\CS Programs\SK Projects\SK Parking Lot Program (C#)\Developer\SK Parking Lot in C sharp Final\SK Parking Lot in C sharp\SK Parking Lot in C sharp\obj\Debug\SK Parking Lot in C sharp.csproj.GenerateResource.Cache
+D:\Docs & Edu\Projects & ppt\CS Programs\SK Projects\SK Parking Lot Program (C#)\Developer\SK Parking Lot in C sharp Final\SK Parking Lot in C sharp\SK Parking Lot in C sharp\obj\Debug\SK Parking Lot.TrustInfo.xml
+D:\Docs & Edu\Projects & ppt\CS Programs\SK Projects\SK Parking Lot Program (C#)\Developer\SK Parking Lot in C sharp Final\SK Parking Lot in C sharp\SK Parking Lot in C sharp\bin\Debug\SK Parking Lot.exe.manifest
+D:\Docs & Edu\Projects & ppt\CS Programs\SK Projects\SK Parking Lot Program (C#)\Developer\SK Parking Lot in C sharp Final\SK Parking Lot in C sharp\SK Parking Lot in C sharp\bin\Debug\SK Parking Lot.application
+D:\Docs & Edu\Projects & ppt\CS Programs\SK Projects\SK Parking Lot Program (C#)\Developer\SK Parking Lot in C sharp Final\SK Parking Lot in C sharp\SK Parking Lot in C sharp\bin\Debug\SK Parking Lot.exe
+D:\Docs & Edu\Projects & ppt\CS Programs\SK Projects\SK Parking Lot Program (C#)\Developer\SK Parking Lot in C sharp Final\SK Parking Lot in C sharp\SK Parking Lot in C sharp\bin\Debug\SK Parking Lot.pdb
+D:\Docs & Edu\Projects & ppt\CS Programs\SK Projects\SK Parking Lot Program (C#)\Developer\SK Parking Lot in C sharp Final\SK Parking Lot in C sharp\SK Parking Lot in C sharp\obj\Debug\SK Parking Lot.exe.manifest
+D:\Docs & Edu\Projects & ppt\CS Programs\SK Projects\SK Parking Lot Program (C#)\Developer\SK Parking Lot in C sharp Final\SK Parking Lot in C sharp\SK Parking Lot in C sharp\obj\Debug\SK Parking Lot.application
+F:\Personal\Documents\Projects & ppt\CS Programs\SK Projects\SK Parking Lot Program (C#)\Developer\SK Parking Lot in C sharp Final\SK Parking Lot in C sharp\SK Parking Lot in C sharp\bin\Debug\SK Parking Lot.exe.config
+F:\Personal\Documents\Projects & ppt\CS Programs\SK Projects\SK Parking Lot Program (C#)\Developer\SK Parking Lot in C sharp Final\SK Parking Lot in C sharp\SK Parking Lot in C sharp\bin\Debug\SK Parking Lot.exe.manifest
+F:\Personal\Documents\Projects & ppt\CS Programs\SK Projects\SK Parking Lot Program (C#)\Developer\SK Parking Lot in C sharp Final\SK Parking Lot in C sharp\SK Parking Lot in C sharp\bin\Debug\SK Parking Lot.application
+F:\Personal\Documents\Projects & ppt\CS Programs\SK Projects\SK Parking Lot Program (C#)\Developer\SK Parking Lot in C sharp Final\SK Parking Lot in C sharp\SK Parking Lot in C sharp\bin\Debug\SK Parking Lot.exe
+F:\Personal\Documents\Projects & ppt\CS Programs\SK Projects\SK Parking Lot Program (C#)\Developer\SK Parking Lot in C sharp Final\SK Parking Lot in C sharp\SK Parking Lot in C sharp\bin\Debug\SK Parking Lot.pdb
+F:\Personal\Documents\Projects & ppt\CS Programs\SK Projects\SK Parking Lot Program (C#)\Developer\SK Parking Lot in C sharp Final\SK Parking Lot in C sharp\SK Parking Lot in C sharp\obj\Debug\SK Parking Lot in C sharp.csprojResolveAssemblyReference.cache
+F:\Personal\Documents\Projects & ppt\CS Programs\SK Projects\SK Parking Lot Program (C#)\Developer\SK Parking Lot in C sharp Final\SK Parking Lot in C sharp\SK Parking Lot in C sharp\obj\Debug\MainWindow.baml
+F:\Personal\Documents\Projects & ppt\CS Programs\SK Projects\SK Parking Lot Program (C#)\Developer\SK Parking Lot in C sharp Final\SK Parking Lot in C sharp\SK Parking Lot in C sharp\obj\Debug\MainWindow.g.cs
+F:\Personal\Documents\Projects & ppt\CS Programs\SK Projects\SK Parking Lot Program (C#)\Developer\SK Parking Lot in C sharp Final\SK Parking Lot in C sharp\SK Parking Lot in C sharp\obj\Debug\App.g.cs
+F:\Personal\Documents\Projects & ppt\CS Programs\SK Projects\SK Parking Lot Program (C#)\Developer\SK Parking Lot in C sharp Final\SK Parking Lot in C sharp\SK Parking Lot in C sharp\obj\Debug\SK Parking Lot_MarkupCompile.cache
+F:\Personal\Documents\Projects & ppt\CS Programs\SK Projects\SK Parking Lot Program (C#)\Developer\SK Parking Lot in C sharp Final\SK Parking Lot in C sharp\SK Parking Lot in C sharp\obj\Debug\SK Parking Lot.g.resources
+F:\Personal\Documents\Projects & ppt\CS Programs\SK Projects\SK Parking Lot Program (C#)\Developer\SK Parking Lot in C sharp Final\SK Parking Lot in C sharp\SK Parking Lot in C sharp\obj\Debug\SK_Parking_Lot.Properties.Resources.resources
+F:\Personal\Documents\Projects & ppt\CS Programs\SK Projects\SK Parking Lot Program (C#)\Developer\SK Parking Lot in C sharp Final\SK Parking Lot in C sharp\SK Parking Lot in C sharp\obj\Debug\SK Parking Lot in C sharp.csproj.GenerateResource.Cache
+F:\Personal\Documents\Projects & ppt\CS Programs\SK Projects\SK Parking Lot Program (C#)\Developer\SK Parking Lot in C sharp Final\SK Parking Lot in C sharp\SK Parking Lot in C sharp\obj\Debug\SK Parking Lot in C sharp.csproj.CoreCompileInputs.cache
+F:\Personal\Documents\Projects & ppt\CS Programs\SK Projects\SK Parking Lot Program (C#)\Developer\SK Parking Lot in C sharp Final\SK Parking Lot in C sharp\SK Parking Lot in C sharp\obj\Debug\SK Parking Lot.TrustInfo.xml
+F:\Personal\Documents\Projects & ppt\CS Programs\SK Projects\SK Parking Lot Program (C#)\Developer\SK Parking Lot in C sharp Final\SK Parking Lot in C sharp\SK Parking Lot in C sharp\obj\Debug\SK Parking Lot.exe.manifest
+F:\Personal\Documents\Projects & ppt\CS Programs\SK Projects\SK Parking Lot Program (C#)\Developer\SK Parking Lot in C sharp Final\SK Parking Lot in C sharp\SK Parking Lot in C sharp\obj\Debug\SK Parking Lot.application
+F:\Personal\Documents\Projects & ppt\CS Programs\SK Projects\SK Parking Lot Program (C#)\Developer\SK Parking Lot in C sharp Final\SK Parking Lot in C sharp\SK Parking Lot in C sharp\obj\Debug\SK Parking Lot.exe
+F:\Personal\Documents\Projects & ppt\CS Programs\SK Projects\SK Parking Lot Program (C#)\Developer\SK Parking Lot in C sharp Final\SK Parking Lot in C sharp\SK Parking Lot in C sharp\obj\Debug\SK Parking Lot.pdb

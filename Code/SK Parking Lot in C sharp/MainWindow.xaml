@@ -1,0 +1,166 @@
+﻿<Window x:Name="StarterWindow" x:Class="SK_Parking_Lot_in_C_sharp.MainWindow" Closing = "DataWindow_closing"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="SK Parking Lot" Height="542" Width="913" ResizeMode="CanMinimize" BorderThickness="0" WindowStartupLocation="Manual" Foreground="White" Background="White">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="56*"/>
+            <RowDefinition Height="457*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="566*"/>
+            <ColumnDefinition Width="351*"/>
+        </Grid.ColumnDefinitions>
+        <TabControl x:Name="TabMain" HorizontalAlignment="Left" Height="450" Margin="10,28,0,0" VerticalAlignment="Top" Width="888" Grid.ColumnSpan="2" Grid.RowSpan="2">
+            <TabItem x:Name="TabCustomer" Header="Non-Members' Cars" TabIndex="0" Margin="-2,-2,-2,0">
+                <Grid Background="#FFF3F3F3" Margin="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="323*"/>
+                        <ColumnDefinition Width="559*"/>
+                    </Grid.ColumnDefinitions>
+                    <Border BorderBrush="#FFABADB3" BorderThickness="1" HorizontalAlignment="Left" Height="78" Margin="10,157,0,0" VerticalAlignment="Top" Width="416" Grid.ColumnSpan="2"/>
+                    <Border BorderBrush="#FFABADB3" BorderThickness="1" HorizontalAlignment="Left" Height="112" Margin="10,20,0,0" VerticalAlignment="Top" Width="416" Grid.ColumnSpan="2"/>
+                    <TextBox x:Name="Tab1TextboxCarList" HorizontalAlignment="Left" Height="373" Margin="143,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="406" Grid.Column="1" VerticalScrollBarVisibility="Auto" IsReadOnly="True" IsUndoEnabled="False" FontFamily="Consolas" FontSize="11"/>
+                    <TextBox x:Name="Tab1TextboxCarNumberAdd" HorizontalAlignment="Left" Height="29" Margin="116,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="233" Grid.ColumnSpan="2" TabIndex="1"/>
+                    <TextBox x:Name="Tab1TextboxCarNumberPrice" HorizontalAlignment="Left" Height="29" Margin="106,178,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="233" Grid.ColumnSpan="2" TabIndex="4"/>
+                    <TextBox x:Name="Tab1TextboxStatus" HorizontalAlignment="Left" Height="151" Margin="10,261,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="416" Grid.ColumnSpan="2" VerticalScrollBarVisibility="Auto" IsReadOnly="True" IsUndoEnabled="False"/>
+                    <Button x:Name="Tab1ButtonAdd" Content="Add Car" HorizontalAlignment="Left" Margin="321,116,0,0" VerticalAlignment="Top" Width="87" Height="29" Click="Tab1ButtonAdd_Click" Grid.ColumnSpan="2" BorderBrush="#FFABADB3" TabIndex="3"/>
+                    <TextBox x:Name="Tab1TextboxCarDescription" HorizontalAlignment="Left" Height="29" Margin="116,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="233" Grid.ColumnSpan="2" TabIndex="2"/>
+                    <Button x:Name="Tab1ButtonFare" Content="Check Fare" HorizontalAlignment="Left" Margin="221,219,0,0" VerticalAlignment="Top" Width="87" Height="29" Click="Tab1ButtonFare_Click" BorderBrush="#FFABADB3" TabIndex="5"/>
+                    <Button x:Name="Tab1ButtonRemove" Content="Remove Car" HorizontalAlignment="Left" Margin="321,219,0,0" VerticalAlignment="Top" Width="87" Height="29" Click="Tab1ButtonRemove_Click" Grid.ColumnSpan="2" BorderBrush="#FFABADB3" TabIndex="6"/>
+                    <Label x:Name="Tab1labelCarNumber" Content="Car Number :" HorizontalAlignment="Left" Margin="29,38,0,0" VerticalAlignment="Top" Width="91"/>
+                    <Label x:Name="Tab1labelCarDescription" Content="Description :" HorizontalAlignment="Left" Margin="29,73,0,0" VerticalAlignment="Top" Width="91"/>
+                    <Label x:Name="Tab1labelEntryID" Content="Parking ID :" HorizontalAlignment="Left" Margin="29,178,0,0" VerticalAlignment="Top" Width="78"/>
+                    <Button x:Name="tab1buttonRefresh" Content="Refresh" Grid.Column="1" HorizontalAlignment="Left" Height="26" Margin="487,7,0,0" VerticalAlignment="Top" Width="62" Click="tab1buttonRefresh_Click" BorderBrush="#FFABADB3" TabIndex="8"/>
+                    <CheckBox x:Name="tab1checkboxupdate" Content="Update List Automatically" Grid.Column="1" HorizontalAlignment="Left" Height="20" Margin="304,13,0,0" VerticalAlignment="Top" Width="158" RenderTransformOrigin="0.911,0.5" IsChecked="True" TabIndex="7"/>
+                    <Label Content="New Entry" HorizontalAlignment="Left" Height="25" Margin="40,5,0,0" VerticalAlignment="Top" Width="67" Background="#FFF3F3F3" Foreground="#FFABADB3"/>
+                    <Label Content="Check Fare | Check out" HorizontalAlignment="Left" Height="25" Margin="40,143,0,0" VerticalAlignment="Top" Width="131" Background="#FFF3F3F3" Foreground="#FFABADB3"/>
+                    <Label Content="Output" HorizontalAlignment="Left" Height="26" Margin="6,237,0,0" VerticalAlignment="Top" Width="85" Foreground="#FFABADB3"/>
+                    <Label Content="Non-Members' Car List" HorizontalAlignment="Left" Height="25" Margin="143,10,0,0" VerticalAlignment="Top" Width="135" Background="#FFF3F3F3" Foreground="#FFABADB3" Grid.Column="1"/>
+                </Grid>
+            </TabItem>
+            <TabItem x:Name="TabMembers" Header="Members' Cars" Margin="4,-2,-17,0" TabIndex="0">
+                <Grid Background="#FFF3F3F3">
+                    <Border BorderBrush="#FFABADB3" BorderThickness="1" HorizontalAlignment="Left" Height="78" Margin="10,157,0,0" VerticalAlignment="Top" Width="416"/>
+                    <Border BorderBrush="#FFABADB3" BorderThickness="1" HorizontalAlignment="Left" Height="112" Margin="10,20,0,0" VerticalAlignment="Top" Width="416"/>
+                    <TextBox x:Name="Tab2TextboxCarList" HorizontalAlignment="Left" Height="373" Margin="466,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="406" VerticalScrollBarVisibility="Auto" IsReadOnly="True" IsUndoEnabled="False" FontFamily="Consolas" FontSize="11"/>
+                    <TextBox x:Name="Tab2TextboxMemberIDAdd" HorizontalAlignment="Left" Height="29" Margin="116,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="233" TabIndex="1"/>
+                    <TextBox x:Name="Tab2TextboxCarNumberRemove" HorizontalAlignment="Left" Height="29" Margin="106,178,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="233" TabIndex="4"/>
+                    <TextBox x:Name="Tab2TextboxStatus" HorizontalAlignment="Left" Height="151" Margin="10,261,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="416" VerticalScrollBarVisibility="Auto" IsUndoEnabled="False" IsReadOnly="True"/>
+                    <Button x:Name="Tab2ButtonAdd" Content="Add Car" HorizontalAlignment="Left" Margin="321,116,0,0" VerticalAlignment="Top" Width="87" Height="29" Click="Tab2ButtonAdd_Click" BorderBrush="#FFABADB3" TabIndex="3"/>
+                    <TextBox x:Name="Tab2TextboxCarDescription" HorizontalAlignment="Left" Height="29" Margin="116,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="233" TabIndex="2"/>
+                    <Button x:Name="Tab2ButtonRemove" Content="Remove Car" HorizontalAlignment="Left" Margin="321,219,0,0" VerticalAlignment="Top" Width="87" Height="29" Click="Tab2ButtonRemove_Click" BorderBrush="#FFABADB3" TabIndex="5"/>
+                    <Label x:Name="Tab2labelMemberNumber" Content="Member ID :" HorizontalAlignment="Left" Margin="29,38,0,0" VerticalAlignment="Top" Width="91"/>
+                    <Label x:Name="Tab2labelCarDescription" Content="Description :" HorizontalAlignment="Left" Margin="29,73,0,0" VerticalAlignment="Top" Width="91"/>
+                    <Label x:Name="Tab2labelEntryID2" Content="Parking ID :" HorizontalAlignment="Left" Margin="29,178,0,0" VerticalAlignment="Top" Width="72"/>
+                    <Button x:Name="tab2buttonRefresh" Content="Refresh" HorizontalAlignment="Left" Height="26" Margin="810,7,0,0" VerticalAlignment="Top" Width="62" Click="tab2buttonRefresh_Click" BorderBrush="#FFABADB3" TabIndex="7"/>
+                    <CheckBox x:Name="tab2checkboxupdate" Content="Update List Automatically" HorizontalAlignment="Left" Height="20" Margin="627,13,0,0" VerticalAlignment="Top" Width="158" IsChecked="True" TabIndex="6"/>
+                    <Label Content="New Entry" HorizontalAlignment="Left" Height="25" Margin="40,5,0,0" VerticalAlignment="Top" Width="67" Background="#FFF3F3F3" Foreground="#FFABADB3"/>
+                    <Label Content="Remove Entry" HorizontalAlignment="Left" Height="26" Margin="40,143,0,0" VerticalAlignment="Top" Width="85" Background="#FFF3F3F3" Foreground="#FFABADB3"/>
+                    <Label Content="Output" HorizontalAlignment="Left" Height="26" Margin="6,237,0,0" VerticalAlignment="Top" Width="85" Foreground="#FFABADB3"/>
+                    <Label Content="Member Car List" HorizontalAlignment="Left" Height="25" Margin="466,10,0,0" VerticalAlignment="Top" Width="105" Background="#FFF3F3F3" Foreground="#FFABADB3"/>
+                </Grid>
+            </TabItem>
+            <TabItem x:Name="TabNewMembers" Header="Members" HorizontalAlignment="Left" Width="74" Margin="19,-2,-19,0" TabIndex="0">
+                <Grid x:Name="TabMemberAdmin" Background="#FFF3F3F3">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="17*"/>
+                        <ColumnDefinition Width="424*"/>
+                    </Grid.ColumnDefinitions>
+                    <Border BorderBrush="#FFABADB3" BorderThickness="1" HorizontalAlignment="Left" Height="149" Margin="437,261,0,0" VerticalAlignment="Top" Width="401" Grid.Column="1"/>
+                    <Border BorderBrush="#FFABADB3" BorderThickness="1" HorizontalAlignment="Left" Height="85" Margin="437,143,0,0" VerticalAlignment="Top" Width="401" Grid.Column="1"/>
+                    <Border BorderBrush="#FFABADB3" BorderThickness="1" HorizontalAlignment="Left" Height="85" Margin="437,23,0,0" VerticalAlignment="Top" Width="401" Grid.Column="1"/>
+                    <Border BorderBrush="#FFABADB3" BorderThickness="1" HorizontalAlignment="Left" Height="190" Margin="10,25,0,0" VerticalAlignment="Top" Width="416" Grid.ColumnSpan="2"/>
+                    <TextBox x:Name="tab3textboxName" HorizontalAlignment="Left" Height="27" Margin="70,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="305" Grid.Column="1" TabIndex="1"/>
+                    <TextBox x:Name="tab3textboxSSN" HorizontalAlignment="Left" Height="29" Margin="70,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="305" Grid.Column="1" TabIndex="2"/>
+                    <TextBox x:Name="tab3textboxPhone" HorizontalAlignment="Left" Height="29" Margin="70,109,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="305" Grid.Column="1" TabIndex="3"/>
+                    <Button x:Name="tab3buttonAdd" Content="Add Member" HorizontalAlignment="Left" Height="29" Margin="277,200,0,0" VerticalAlignment="Top" Width="89" Click="tab3buttonAdd_Click" BorderBrush="#FFABADB3" Grid.Column="1" TabIndex="6"/>
+                    <Label x:Name="tab3labelName" Content="Name :" HorizontalAlignment="Left" Height="30" Margin="25,42,0,0" VerticalAlignment="Top" Width="72" Grid.ColumnSpan="2"/>
+                    <Label x:Name="tab3labelSSN" Content="SSN :" HorizontalAlignment="Left" Height="30" Margin="25,78,0,0" VerticalAlignment="Top" Width="72" Grid.ColumnSpan="2"/>
+                    <Label x:Name="tab3labePhone" Content="Phone :" HorizontalAlignment="Left" Height="30" Margin="25,114,0,0" VerticalAlignment="Top" Width="72" Grid.ColumnSpan="2"/>
+                    <TextBox x:Name="tab3textboxMemberIDsearch" HorizontalAlignment="Left" Height="29" Margin="541,46,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="223" Grid.Column="1" TabIndex="7"/>
+                    <Label x:Name="tab3labelIDsearch" Content="Member ID :" HorizontalAlignment="Left" Height="30" Margin="453,46,0,0" VerticalAlignment="Top" Width="77" Grid.Column="1"/>
+                    <Button x:Name="tab3buttonSearch" Content="Search" HorizontalAlignment="Left" Height="29" Margin="728,92,0,0" VerticalAlignment="Top" Width="89" Click="tab3buttonSearch_Click" BorderBrush="#FFABADB3" Grid.Column="1" TabIndex="8"/>
+                    <Button x:Name="tab3buttonRemove" Content="Remove" HorizontalAlignment="Left" Height="29" Margin="728,211,0,0" VerticalAlignment="Top" Width="89" RenderTransformOrigin="0.244,0.586" Click="tab3buttonRemove_Click" BorderBrush="#FFABADB3" Grid.Column="1" TabIndex="10"/>
+                    <TextBox x:Name="Tab3TextboxStatus" HorizontalAlignment="Left" Height="151" Margin="10,261,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="416" VerticalScrollBarVisibility="Auto" Grid.ColumnSpan="2" IsReadOnly="True" IsUndoEnabled="False"/>
+                    <TextBox x:Name="tab3textboxMonths" HorizontalAlignment="Left" Height="29" Margin="121,150,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="63" Grid.Column="1" TabIndex="4"/>
+                    <Label x:Name="tab3labelMonth" Content="Validity (in Months) :" HorizontalAlignment="Left" Height="30" Margin="25,150,0,0" VerticalAlignment="Top" Width="125" Grid.ColumnSpan="2"/>
+                    <TextBox x:Name="tab3textboxMemberIDremove" HorizontalAlignment="Left" Height="29" Margin="541,167,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="223" Grid.Column="1" TabIndex="9"/>
+                    <Label x:Name="tab3labelIDsearch_Copy" Content="Member ID :" HorizontalAlignment="Left" Height="30" Margin="453,167,0,0" VerticalAlignment="Top" Width="77" Grid.Column="1"/>
+                    <TextBox x:Name="tab3textboxMemberIDvalidity" HorizontalAlignment="Left" Height="29" Margin="541,278,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="223" Grid.Column="1" TabIndex="11"/>
+                    <Label x:Name="tab3labelIDsearch_Copy1" Content="Member ID :" HorizontalAlignment="Left" Height="30" Margin="453,282,0,0" VerticalAlignment="Top" Width="77" Grid.Column="1"/>
+                    <TextBox x:Name="tab3textboxMonthsincrease" HorizontalAlignment="Left" Height="29" Margin="582,322,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="105" Grid.Column="1" TabIndex="12"/>
+                    <Label x:Name="tab3labelMonth_Copy" Content="Validity (in Months) :" HorizontalAlignment="Left" Height="30" Margin="453,322,0,0" VerticalAlignment="Top" Width="124" Grid.Column="1"/>
+                    <Button x:Name="tab3buttonsubmit" Content="Increase Validity" HorizontalAlignment="Left" Height="29" Margin="710,322,0,0" VerticalAlignment="Top" Width="107" RenderTransformOrigin="0.244,0.586" Click="tab3buttonsubmit_Click" BorderBrush="#FFABADB3" Grid.Column="1" TabIndex="13"/>
+                    <Label x:Name="tab3labelhoursperday" Content="Hours per day : " HorizontalAlignment="Left" Height="30" Margin="200,150,0,0" VerticalAlignment="Top" Width="96" Grid.Column="1"/>
+                    <TextBox x:Name="tab3textboxhours" HorizontalAlignment="Left" Height="29" Margin="301,150,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="74" Grid.Column="1" TabIndex="5"/>
+                    <Label x:Name="tab3labelhourIncrease" Content="Hours per day : " HorizontalAlignment="Left" Height="30" Margin="453,363,0,0" VerticalAlignment="Top" Width="93" Grid.Column="1"/>
+                    <TextBox x:Name="tab3textboxhoursmanipulate" HorizontalAlignment="Left" Height="29" Margin="582,364,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="105" Grid.Column="1" TabIndex="14"/>
+                    <Button x:Name="tab3buttonsubmit_Copy" Content="Set  hours" HorizontalAlignment="Left" Height="29" Margin="710,364,0,0" VerticalAlignment="Top" Width="107" RenderTransformOrigin="0.485,0.535" Click="tab3buttonsubmit_Copy_Click" BorderBrush="#FFABADB3" Grid.Column="1" TabIndex="15"/>
+                    <Label Content="Add New Member" HorizontalAlignment="Left" Height="27" Margin="6,10,0,0" VerticalAlignment="Top" Width="108" Background="#FFF3F3F3" Foreground="#FFABADB3" Grid.Column="1"/>
+                    <Label Content="View Member Details" HorizontalAlignment="Left" Height="27" Margin="453,9,0,0" VerticalAlignment="Top" Width="124" Background="#FFF3F3F3" Foreground="#FFABADB3" Grid.Column="1"/>
+                    <Label Content="Remove a Member" HorizontalAlignment="Left" Height="27" Margin="453,129,0,0" VerticalAlignment="Top" Width="111" Background="#FFF3F3F3" Foreground="#FFABADB3" Grid.Column="1"/>
+                    <Label Content="Edit Member Details" HorizontalAlignment="Left" Height="27" Margin="453,246,0,0" VerticalAlignment="Top" Width="118" Background="#FFF3F3F3" Foreground="#FFABADB3" Grid.Column="1"/>
+                    <Label Content="Output" HorizontalAlignment="Left" Height="26" Margin="6,237,0,0" VerticalAlignment="Top" Width="85" Foreground="#FFABADB3" Grid.ColumnSpan="2"/>
+                </Grid>
+            </TabItem>
+            <TabItem x:Name="TabViewMembers" Header="Statistics" HorizontalAlignment="Left" Width="95" Margin="21,-2,-21,0" TabIndex="0">
+                <Grid Background="#FFF3F3F3">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="53*"/>
+                        <ColumnDefinition Width="388*"/>
+                    </Grid.ColumnDefinitions>
+                    <Border BorderBrush="#FFABADB3" BorderThickness="1" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="122" Margin="17,52,0,0" VerticalAlignment="Top" Width="415"/>
+                    <Border BorderBrush="#FFABADB3" BorderThickness="1" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="152" Margin="17,231,0,0" VerticalAlignment="Top" Width="415">
+                        <Button x:Name="tab4buttoncount" Content="Go" HorizontalAlignment="Left" Height="34" Margin="292,132,0,-16" VerticalAlignment="Top" Width="102" Click="tab4buttoncount_Click" BorderBrush="#FFABADB3" TabIndex="14"/>
+                    </Border>
+                    <TextBox x:Name="Tab4TextboxMemberList" HorizontalAlignment="Left" Height="373" Margin="360,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="406" VerticalScrollBarVisibility="Auto" Grid.Column="1" IsReadOnly="True" IsUndoEnabled="False" HorizontalContentAlignment="Stretch" FontFamily="Consolas" FontSize="11"/>
+                    <ComboBox x:Name="tab4comboboxMemberSelector" HorizontalAlignment="Left" Height="26" Margin="537,7,0,0" VerticalAlignment="Top" Width="145" SelectionChanged="tab4comboboxMemberSelector_SelectionChanged" Grid.Column="1" TabIndex="15" SelectedIndex="0">
+                        <ComboBoxItem x:Name="ComboBoxitemAllMembers" Content="All Members" HorizontalAlignment="Left" Width="145"/>
+                        <ComboBoxItem x:Name="ComboBoxitemValidMembers" Content="Valid Members" HorizontalAlignment="Left" Width="145"/>
+                        <ComboBoxItem x:Name="ComboBoxitemExpiredMembers" Content="Validity Expired Members" HorizontalAlignment="Left" Width="145"/>
+                    </ComboBox>
+                    <Button x:Name="tab4ButtonRefresh" Content="Refresh" HorizontalAlignment="Left" Height="26" Margin="704,7,0,0" VerticalAlignment="Top" Width="62" Click="tab4ButtonRefresh_Click" Grid.Column="1" BorderBrush="#FFABADB3" TabIndex="16"/>
+                    <Separator HorizontalAlignment="Left" Height="22" Margin="142,202,0,0" VerticalAlignment="Top" Width="402" RenderTransformOrigin="0.5,0.5" Grid.Column="1">
+                        <Separator.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="-90.089"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Separator.RenderTransform>
+                    </Separator>
+                    <Grid x:Name="gridRadioButton" Margin="28,41,12,317">
+                        <RadioButton x:Name="tab4radioPriceOn" Content="On" HorizontalAlignment="Left" Height="19" VerticalAlignment="Top" Width="71" Margin="0,35,-5,0" TabIndex="1"/>
+                        <RadioButton x:Name="tab4radioPricebetween" Content="From" Height="19" Margin="0,78,-5,-37" VerticalAlignment="Top" TabIndex="3"/>
+                    </Grid>
+                    <DatePicker x:Name="datepick1day" HorizontalAlignment="Left" Height="28" Margin="2,67,0,0" VerticalAlignment="Top" Width="126" Grid.Column="1" IsTodayHighlighted="True" TabIndex="2"/>
+                    <DatePicker x:Name="datepickbetween1" HorizontalAlignment="Left" Height="28" Margin="2,114,0,0" VerticalAlignment="Top" Width="126" Grid.Column="1" TabIndex="4"/>
+                    <DatePicker x:Name="datepickbetween2" HorizontalAlignment="Left" Height="28" Margin="181,114,0,0" VerticalAlignment="Top" Width="126" Grid.Column="1" TabIndex="5"/>
+                    <Label x:Name="tab4to" Content="to" HorizontalAlignment="Left" Height="26" Margin="142,112,0,0" VerticalAlignment="Top" Width="29" Grid.Column="1"/>
+                    <Grid x:Name="gridcountradiobuttons" Margin="23,244,469,25" Grid.ColumnSpan="2">
+                        <RadioButton x:Name="tab4radioallcustomers" Content="Count all Entries (since beginning)" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Width="206" Margin="10,14,0,0" TabIndex="7"/>
+                        <RadioButton x:Name="tab4radioallmembers" Content="Count all Members" HorizontalAlignment="Left" Height="23" Margin="10,42,0,0" VerticalAlignment="Top" Width="138" TabIndex="8"/>
+                        <RadioButton x:Name="tab4radiocustomercars" Content="Count current Non-Members' Cars" HorizontalAlignment="Left" Height="23" Margin="10,70,0,0" VerticalAlignment="Top" Width="206" TabIndex="9"/>
+                        <RadioButton x:Name="tab4radioMembercars" Content="Count current Member Cars" HorizontalAlignment="Left" Height="23" Margin="10,98,0,0" VerticalAlignment="Top" Width="183" TabIndex="10"/>
+                        <RadioButton x:Name="tab4radioparkingspots" Content="Total Parking spots" HorizontalAlignment="Left" Height="23" Margin="237,14,0,0" VerticalAlignment="Top" Width="153" TabIndex="11"/>
+                        <RadioButton x:Name="tab4radioEmptySpots" Content="Empty Parking Spots" HorizontalAlignment="Left" Height="23" Margin="237,70,0,0" VerticalAlignment="Top" Width="153" TabIndex="13"/>
+                        <RadioButton x:Name="tab4radioFilledSpots" Content="Filled Parking Spots" HorizontalAlignment="Left" Height="23" Margin="237,42,0,0" VerticalAlignment="Top" Width="153" TabIndex="12"/>
+                    </Grid>
+                    <Label Content="Member Type :" Grid.Column="1" HorizontalAlignment="Left" Height="26" Margin="444,7,0,0" VerticalAlignment="Top" Width="88"/>
+                    <Button x:Name="tab4buttonPrice" Content="Get Price" HorizontalAlignment="Left" Height="34" Margin="205,157,0,0" VerticalAlignment="Top" Width="102" Click="tab4buttonPrice_Click" Grid.Column="1" BorderBrush="#FFABADB3" TabIndex="6"/>
+                    <Label Content="Total Price" HorizontalAlignment="Left" Height="27" Margin="43,39,0,0" VerticalAlignment="Top" Width="67" Background="#FFF3F3F3" Grid.ColumnSpan="2" Foreground="#FFABADB3"/>
+                    <Label Content="Count Data" HorizontalAlignment="Left" Height="27" Margin="43,217,0,0" VerticalAlignment="Top" Width="72" Background="#FFF3F3F3" Grid.ColumnSpan="2" Foreground="#FFABADB3"/>
+                    <Label Content="Members" HorizontalAlignment="Left" Height="25" Margin="355,15,0,0" VerticalAlignment="Top" Width="105" Background="{x:Null}" Foreground="#FFABADB3" Grid.Column="1"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+        <Button x:Name="buttonInfo" Content="i" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="308,18,0,0" VerticalAlignment="Top" Width="24" ToolTip="About" Click="buttonInfo_Click" BorderBrush="#FFABADB3" TabIndex="12"/>
+        <Label x:Name="labelDeveloper" Content="Developer: Shubham Kumar" Grid.Column="1" HorizontalAlignment="Left" Height="26" Margin="156,425,0,0" VerticalAlignment="Top" Width="176" FontStyle="Italic" Foreground="#FFB8AEAE" HorizontalContentAlignment="Right" Grid.Row="1"/>
+        <Button x:Name="buttonSerialize" Content="Save" HorizontalAlignment="Left" Height="23" Margin="205,18,0,0" VerticalAlignment="Top" Width="47" Click="buttonSerialize_Click" Grid.Column="1" BorderBrush="#FFABADB3" ToolTip="Save Current Data" TabIndex="10"/>
+        <Button x:Name="buttonReset" Content="Reset" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="255,18,0,0" VerticalAlignment="Top" Width="50" Click="buttonReset_Click" BorderBrush="#FFABADB3" ToolTip="Clear Everything" TabIndex="11"/>
+        <Button Content="Export" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="154,18,0,0" VerticalAlignment="Top" Width="48" BorderBrush="#FFABADB3" ToolTip="Export all data to a readable text file." Click="Button_Click" TabIndex="9"/>
+
+    </Grid>
+</Window>
